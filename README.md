@@ -13,7 +13,6 @@ Spendly is a simple and intuitive mobile expense tracker app built with React Na
 
 ## Screenshots
 
-## Screenshots
 
 ![Spendly](./screenshots/spendly.png)
 
@@ -28,6 +27,3 @@ Spendly is a simple and intuitive mobile expense tracker app built with React Na
 - react-native-dropdown-picker (for category selection)
 - react-native-chart-kit (for pie chart visualization)
 
-## Installation and Running
-
-1. Clone the repo:
