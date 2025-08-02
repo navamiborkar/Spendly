@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# Spendly
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Spendly is a simple and intuitive mobile expense tracker app built with React Native and Expo. It helps users easily add, categorize, and track their daily expenses with a clean UI and insightful pie chart visualization.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Add expenses with amount, note, and category (Food, Travel, Shopping, Bills, Other)
+- View total expenses at a glance
+- Visualize spending distribution by category using a pie chart
+- Persistent local storage with AsyncStorage to save expenses between app sessions
+- Edit and delete individual expenses
+- Clear all expenses with one button
 
-   ```bash
-   npm install
-   ```
+## Screenshots
 
-2. Start the app
+## Screenshots
 
-   ```bash
-   npx expo start
-   ```
+![Spendly](./screenshots/spendly.png)
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Technologies Used
 
-When you're ready, run:
+- React Native
+- Expo
+- AsyncStorage (for local data persistence)
+- react-native-dropdown-picker (for category selection)
+- react-native-chart-kit (for pie chart visualization)
 
-```bash
-npm run reset-project
-```
+## Installation and Running
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone the repo:
